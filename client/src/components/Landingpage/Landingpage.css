@@ -1,0 +1,70 @@
+html,
+body,
+#root,
+.landing-page {
+    height: 100%;
+    margin: 0;
+}
+
+.landing-page {
+    display: flex;
+}
+
+.left-section,
+.right-section {
+    height: 95.1vh;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    /* Ensure the background image covers the entire section */
+    background-position: center;
+    /* Center the background image */
+}
+
+.left-section {
+    background-color: black;
+    color: white;
+}
+
+.centered-logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    
+    margin-bottom: auto;
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: auto;
+   
+    margin-bottom: 20px;
+ 
+}
+
+.get-started-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3;
+}
